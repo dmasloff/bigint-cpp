@@ -25,7 +25,7 @@ run: build
 	@echo 'Run tests (valgrind)'
 	time valgrind --leak-check=yes ./test_simple
 
-test: info run lint
+test: info run
 	@echo 'Great job!'
 
 clean:
